@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apakah kamu penasaran, berapa match yang harus kamu selesaikan untuk mencapai WR sekian?">
+    <meta name="keywords" content="cara menghitung wr, situs penghitung wr, mobile legends, hitung wr, website penghitung wr, penghitung wr">
+    <meta property="og:description" content="Apakah kamu penasaran, berapa match yang harus kamu selesaikan untuk mencapai WR sekian?" />
+
+    <title>Penghitung WR Mobile Legend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/images/MobileLegends.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container pb-4">
+        <div class="row justify-content-center">
+            <div class="bg-dark mb-4 py-1 text-white text-center welcomeMsg py-sm-2" id="welcomeMsg">
+                <p class="animation mb-0 text-truncate">Thanks sudah mengunjungi website gw</p>
+            </div>
+            <div class="col-lg-6 col-md-9 col-sm-9">
+                <div class="text-center mb-3 d-flex flex-column align-items-center">
+                    <img src="assets/images/MobileLegends.png" class="mlImg mb-1" alt="MobileLegends">
+                    <small class="d-inline-block">Created by : Rey ft U</small>
+                </div>
+                <form class="mb-3">
+                    <div class="mb-3">
+                        <label class="mb-1" for="idMatch">Total match Anda</label>
+                        <input type="number" placeholder="Cth: 259" autofocus autocomplete="off" id="tMatch" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="mb-1" for="tWr">Total WR Anda</label>
+                        <input type="number" placeholder="Cth: 76.4" step="any" autocomplete="off" id="tWr" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="mb-1" for="wrReq">Berapa WR yang anda inginkan?</label>
+                        <input type="number" placeholder="Cth: 80" step="any" autocomplete="off" id="wrReq" class="form-control">
+                    </div>
+                    <button class="btn btn-primary d-block w-100" type="button" id="hasil">Hasil</button>
+                </form>
+                <span id="resultText" class="text-center d-block">
+                </span>
+                <hr class="mt-5">
+                <p class="text-center mb-0">Copyright &copy; 2021 Rey ft U</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/home.js"></script>
+</body>
+
+</html>
